@@ -1,0 +1,52 @@
+{
+  "name": "@gomzkov/oh-thats-cool",
+  "version": "0.1.0",
+  "description": "Learn the domain while you work in it.",
+  "type": "module",
+  "bin": {
+    "oh-thats-cool": "dist/install.js"
+  },
+  "files": [
+    "dist/install.js",
+    "SKILL.md",
+    "hook/oh-thats-cool.sh",
+    "cursor/oh-thats-cool.mdc"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node dist/install.js --selftest",
+    "prepack": "npm test"
+  },
+  "keywords": [
+    "ai-agents",
+    "agent-skills",
+    "domain-knowledge",
+    "learning",
+    "claude-code",
+    "cursor",
+    "codex",
+    "developer-tools",
+    "llm",
+    "prompt-engineering"
+  ],
+  "author": "Evgeni Gomziakov (gomzkov)",
+  "license": "MIT",
+  "homepage": "https://github.com/gomzkov/oh-thats-cool#readme",
+  "bugs": {
+    "url": "https://github.com/gomzkov/oh-thats-cool/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gomzkov/oh-thats-cool.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.0",
+    "typescript": "^6.0.0"
+  }
+}

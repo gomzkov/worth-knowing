@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Oh, That's Cool logo</title>
+  <desc id="desc">A cyan speech bubble containing an exclamation mark on a dark blue rounded square</desc>
+  <defs>
+    <linearGradient id="background" x1="112" y1="72" x2="904" y2="952" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101A38"/>
+      <stop offset="1" stop-color="#060814"/>
+    </linearGradient>
+    <linearGradient id="bubble" x1="220" y1="180" x2="808" y2="804" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#65E7F5"/>
+      <stop offset="0.52" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#6175FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="232" fill="url(#background)"/>
+  <path d="M512 166C322.3 166 184 288.9 184 452.6c0 103.5 56.5 194.6 150.6 245.9L306 838l150.8-104.8c18 2.5 36.4 3.8 55.2 3.8 189.7 0 328-122.9 328-284.4S701.7 166 512 166Z" fill="url(#bubble)"/>
+  <path d="M512 280c39.8 0 68.8 30.7 65.4 69.1l-17.6 198.3c-2.3 25.7-22.9 45.1-47.8 45.1s-45.5-19.4-47.8-45.1l-17.6-198.3C443.2 310.7 472.2 280 512 280Z" fill="#071022"/>
+  <circle cx="512" cy="651" r="50" fill="#071022"/>
+</svg>
