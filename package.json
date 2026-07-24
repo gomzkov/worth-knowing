@@ -1,0 +1,52 @@
+{
+  "name": "@gomzkov/worth-knowing",
+  "version": "0.1.0",
+  "description": "Learn the domain while you work in it. An agent skill for Claude Code, Cursor, and Codex.",
+  "type": "module",
+  "bin": {
+    "worth-knowing": "dist/install.js"
+  },
+  "files": [
+    "dist/install.js",
+    "SKILL.md",
+    "hook/worth-knowing.sh",
+    "cursor/worth-knowing.mdc"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node dist/install.js --selftest",
+    "prepack": "npm test"
+  },
+  "keywords": [
+    "ai-agents",
+    "agent-skills",
+    "domain-knowledge",
+    "learning",
+    "claude-code",
+    "cursor",
+    "codex",
+    "developer-tools",
+    "llm",
+    "prompt-engineering"
+  ],
+  "author": "Evgeni Gomziakov (gomzkov)",
+  "license": "MIT",
+  "homepage": "https://github.com/gomzkov/worth-knowing#readme",
+  "bugs": {
+    "url": "https://github.com/gomzkov/worth-knowing/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gomzkov/worth-knowing.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "typescript": "^7.0.2"
+  }
+}
