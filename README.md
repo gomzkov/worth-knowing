@@ -1,5 +1,5 @@
 <div align="center">
-  <h1><img src="assets/logo.png" alt="Worth Knowing" width="128" height="128"><br>worth knowing</h1>
+  <h1>worth knowing</h1>
 
   <p><strong>Learn the domain while you work in it.</strong></p>
 
